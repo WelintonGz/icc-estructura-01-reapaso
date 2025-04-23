@@ -13,7 +13,13 @@ public class PersonaController {
      * @param personas Array de Persona a ordenar.
      */
     public void ordenarPorEdad(Persona[] personas) {
-        throw new UnsupportedOperationException("Not implemented yet.");
+        
+        for (int i=0; i<personas.length;i++){
+            Persona key = personas[i];
+            int j = i - 1;
+
+        }
+
     }
 
     /**
